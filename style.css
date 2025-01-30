@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body
+{
+    font-family: "Lato", serif;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a
+{
+    text-decoration: none;
+}
+ul
+{
+    list-style: none;
+}
+.con
+{
+    max-width: 1240px;
+    margin: auto;
+}
+.top {background: rgb(35, 34, 34); color: white; padding: 10px 0;}
+.flex {display: flex; justify-content: space-between; align-items: center;}
+.top ul {display: flex; gap: 20px;}
+.logo {width: 200px;}
+nav ul {display: flex; gap: 20px;}
+nav a {color: black; text-transform: uppercase; font-weight: bold;}
+header {padding: 10px 0;}
+.banner{width: 100%;}
+.about-left, .about-right {flex-basis: 50%;}
+.about {padding: 30px 0;}
+.btn {background: red; color: white; padding: 10px; border: none; margin: 20px 0;}
+p {line-height: 2;}
+.gap {gap: 30px;}
+.abox {width: 380px; box-shadow: 0px 0px 10px black;}
+.abox img {width: 100%;}
+.abox-1 {padding: 20px;}
+.abox-2 {padding: 20px; border-top: 1px solid black;
+border-bottom: 1px solid black;}
+.activity h2 {color: brown; padding: 20px 0;}
+.wrap {flex-wrap: wrap;}
+.footer-top {background: black; color: white; padding: 40px 0; margin-top: 50px;}
+.footer-top ul {display: flex; gap: 20px;}
+.footer-buttom {background: burlywood; color: white; padding: 15px 0;}
+.breadcrumb { background: burlywood;
+text-align: center;
+padding: 50px;
+color: white;}
+.main {padding: 40px 0;}
+main {flex-basis: 60%;}
+main h5 {font-weight: bold; padding: 20px 0; font-size: 20px;}
+.py {padding: 10px 0;}
+aside {flex-basis: 40%;}
+.thumb {width: 120px;}
+.row {display: flex; gap: 10px; margin: 20px 0;}
+.start {align-items: start;}
+h5 {color: burlywood;}
